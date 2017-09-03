@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="http://bing.com"><!--action 提交位置-->
+    <!--placeholder属性用于显示input框没有输入时的框内提示信息-->
+    <input type="text" placeholder="username" value="zp" disabled="disabled">
+    <input type="password" placeholder="password">
+    <br>
+    <input type="radio" name="gender" checked="checked">girl
+    <input type="radio" name="gender" >boy
+    <br>
+    <input type="checkbox" name="hobbies" checked="checked">music
+    <input type="checkbox" name="hobbies" >game
+    <input type="checkbox" name="hobbies" >sport
+    <br>
+
+    <!--不建议用date，color-->
+    <input type="date" placeholder="dob" ><br>
+    <input type="color" name="" ><br>
+
+    <select name="city" multiple="multiple">
+        <option value="Beijing" >Beijing</option>
+        <option value="Shanghai">Shanghai</option>
+        <option value="Shenzhen" selected="selected">Shenzhen</option>
+        <option value="Guangzhou">Guangzhou</option>
+    </select>
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="button" value="Test">
+    <input type="file" name="">
+    <input type="hidden" name="test-key" value="test-value">隐藏域
+    <br>
+    <button>Button</button>
+    <input type="submit" value="sign up">
+    <input type="reset" value="reset">重置
+</form>
+</body>
+</html>
